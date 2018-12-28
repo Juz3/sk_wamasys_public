@@ -1,0 +1,38 @@
+{
+  "name": "sk_wamasys",
+  "version": "0.13.0",
+  "description": "SK Warehouse Management System",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start:watch": "node_modules/.bin/nodemon --exec \"npm run start\"",
+    "build-frontend": "npm run build --prefix client",
+    "client": "npm run start --prefix client",
+    "both": "concurrently \"npm run start:watch\" \"npm run client\"",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juz3/sk_wamasys.git"
+  },
+  "keywords": [],
+  "author": "Jussi Koivumäki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juz3/sk_wamasys/issues"
+  },
+  "homepage": "https://github.com/Juz3/sk_wamasys#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}

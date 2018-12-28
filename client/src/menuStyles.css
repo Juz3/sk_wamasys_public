@@ -1,0 +1,146 @@
+.indexContainer {
+    background: #26272b;
+}
+
+.indexHeaderDiv {
+    margin-top: 30px;
+    margin-left: 15px;
+    background: #26272b;
+    color: #fff;
+}
+.App {
+    background: #26272b;
+}
+html {
+    background: #26272b;
+}
+
+.exampleTable {
+    background: #fff;
+    color: #000;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.storageList {
+    background: #fff;
+    color: #000;
+}
+.storageForm {
+    color: #fff;
+    width: 600px !important;
+    text-align: center;
+}
+.registerForm {
+    color: #fff;
+    width: 600px;
+    text-align: center;
+
+}
+.loginForm {
+    color: #fff;
+    text-align: center;
+    width: 600px;
+
+}
+
+.logOutBtn {
+    font-size: 16px;
+    border: 2px solid #fff;
+    background: #585858;
+}
+.searchForm {
+    color: #fff;
+    width: 600px !important;
+    text-align: center;
+    padding-left: 23.5%;
+    padding-right: 25%;
+}
+.itemAmount {
+    width: 80px !important;
+}
+.searchInstructions {
+    color: #e7dabe;
+    text-align: center;
+}
+.loginInfoBox {
+    background: #26272b;
+    padding-top: 40px;
+    padding-left: 30%;
+    padding-right: 30%;
+    color: #fff;
+
+    text-align: center;
+}
+
+.homePageUserData {
+    color: #fff;
+    font-size: 16pt;
+    background:  #26272b;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.userDataTable {
+    background: #96979c;
+    color: #000;
+}
+.userDataHeading {
+    text-align: center;
+}
+.userDataList {
+    background: #fff;
+    color: #000;
+}
+.userLoanDataList {
+    background: #fff;
+}
+.userDataContainer {
+    color: #000;
+    background:  #26272b;
+}
+
+.storageListHeader {
+    background: #96979c;
+    color: #000;
+}
+.StorageLabels {
+    color: #fff;
+}
+
+@media (max-width: 575px) {
+    .storageForm {
+        width: 300px !important;
+    }
+    .searchForm {
+        width: 300px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .storageForm {
+        width: 400px !important;
+    }
+    .searchForm {
+        width: 400px !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .storageForm {
+        width: 600px !important;
+    }
+    .searchForm {
+        width: 600px !important;
+    }
+}
+
+@media (max-width: 1199px) {
+    .storageForm {
+        width: 600px !important;
+    }
+    .searchForm {
+        width: 600px !important;
+    }
+}
