@@ -1,7 +1,7 @@
 {
-  "name": "sk_wamasys",
-  "version": "0.13.0",
-  "description": "SK Warehouse Management System",
+  "name": "sk_wamasys_public",
+  "version": "0.20.0",
+  "description": "SK Warehouse Management & Tool Reservation System",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Juz3/sk_wamasys.git"
+    "url": "git+https://github.com/Juz3/sk_wamasys_public.git"
   },
   "keywords": [],
   "author": "Jussi Koivumäki",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Juz3/sk_wamasys/issues"
+    "url": "https://github.com/Juz3/sk_wamasys_public/issues"
   },
-  "homepage": "https://github.com/Juz3/sk_wamasys#readme",
+  "homepage": "https://github.com/Juz3/sk_wamasys_public#readme",
   "dependencies": {
     "bcrypt": "^3.0.2",
     "body-parser": "^1.18.3",
