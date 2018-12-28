@@ -53,7 +53,7 @@ class AboutPage extends React.Component {
           <Row>
             <Col className="aboutColTop">
               <h2 style={this.state.headingStyle}>Palvelun esittely</h2>
-              <p style={this.state.headingStyle}><strong>Kuvaus:</strong></p>
+              <p style={this.state.headingStyle}><strong>Kuvaus 1:</strong></p>
               <p>Työkaluvarausjärjestelmä Koulutuskeskus Sedun Kurikan toimipisteen varastolle. 
                 Projektin tavoitteena on luoda nykyaikainen sähköinen varausjärjestelmä 
                 opiskelijoiden sekä opettajien käyttöön, korvaamaan vanhan paperikirjanpitoon perustuneen 
